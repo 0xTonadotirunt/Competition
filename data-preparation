@@ -46,3 +46,25 @@ to_float32(df_formatted, ["rawlat", "rawlng", "speed", "accuracy"])
 to_uint16(df_formatted, ["bearing", "day_of_week", "month", "year"])
 to_int32(df_formatted, "pingtimestamp")
 
+#truncate data set
+df_formatted = df_formatted.sort_values(by=['pingtimestamp'])
+df_formatted2 = df_formatted.reset_index()
+trunc_df = df_formatted2.truncate(before=0, after=100000, axis=0, copy=True)
+
+trunc_df
+df_formatted.head()
+
+lat = trunc_df[["rawlat"]]
+lat.head()
+long = trunc_df[["rawlng"]]
+long.head()
+time = trunc_df[["pingtimestamp"]]
+time.head()
+accuracy = trunc_df[["accuracy"]]
+
+min_lng = min(trunc_df["rawlng"])
+max_lng = max(trunc_df["rawlng"])
+
+min_lat = min(trunc_df["rawlat"])
+max_lat = max(trunc_df["rawlat"])
+
