@@ -30,3 +30,21 @@ time - time that bid is made ( transformed )
 country - the country that the ip belongs to
 ip - IP address of bidder ( obfuscated )
 url - url where the bidder was referred from ( obfuscated ).
+
+
+Kaggle competition link : 
+https://www.kaggle.com/c/ai200-dec-2021-human-or-bot/leaderboard
+
+Teamname : JJZR
+-----------------
+AUC score
+Public : 0.89533
+Private : 0.88597
+
+Original Kaggle Competition
+-----------------------------
+Facebook Recruitment IV: Human or Robot?
+https://www.kaggle.com/c/facebook-recruiting-iv-human-or-bot
+AUC score
+Public : 0.89402
+Private : 0.91125
