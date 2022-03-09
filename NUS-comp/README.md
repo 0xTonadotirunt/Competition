@@ -5,3 +5,13 @@ Grab-Posisi dataset contains in total 84K trajectories that consist of more than
 The data were collected very recently in April 2019 with a 1 second sampling rate
 
 references : https://doi.org/10.1145/3356995.3364536
+
+
+
+OUTPUT
+----------------------
+https://user-images.githubusercontent.com/101113901/157443974-f8668d8c-72ec-4fa2-b50f-e1b61e1e2cf3.mp4
+
+Features : 
+speed of vehicle - varies from dark (slow) to yellow (fast)
+labels - show the exact position of the vehicle, and the speed of the vehicle at that point in time
