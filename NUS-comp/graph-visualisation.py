@@ -1,17 +1,3 @@
-#scatter plot
-import plotly.express as px
-
-
-
-adj = 0
-
-fig = px.scatter(trunc_df, x="rawlng", y="rawlat", color="bearing", log_x=False, size_max=5,
-                 animation_frame="pingtimestamp",  # add animation_frame and animation_group
-                 range_x=[min_lng-adj,max_lng+adj], range_y=[min_lat-adj,max_lat+adj])              # define x & y axis range for animation duration
-
-
-
-fig.show()
 
 #scatterplot w animations and mapplot (plotly)
 import numpy as np
