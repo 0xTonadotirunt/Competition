@@ -32,7 +32,7 @@ ip - IP address of bidder ( obfuscated )
 url - url where the bidder was referred from ( obfuscated ).
 
 
-**Kaggle competition link : **
+**Kaggle competition link**: 
 https://www.kaggle.com/c/ai200-dec-2021-human-or-bot/leaderboard
 
 Teamname : JJZR
