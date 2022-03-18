@@ -31,6 +31,9 @@ country - the country that the ip belongs to
 ip - IP address of bidder ( obfuscated )
 url - url where the bidder was referred from ( obfuscated ).
 
+**Google Collab Link**:
+https://drive.google.com/file/d/1bin5cfq5UkFpfoJIaF2CLqIGXkVoMYu5/view?usp=sharing
+
 
 **Kaggle competition link**: 
 https://www.kaggle.com/c/ai200-dec-2021-human-or-bot/leaderboard
